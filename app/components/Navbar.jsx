@@ -41,7 +41,7 @@ const Navbar = () => {
 
       <nav
         className={`w-full fixed px-5 lg:px-8 xl:px-[8%] flex items-center justify-between z-50 ${
-          isScroll ? "bg-white/50 backdrop-blur-lg shadow-sm dark:bg-gray-500/50 " : ""
+          isScroll ? "bg-white/50 backdrop-blur-lg shadow-sm dark:bg-gray-350/50 " : ""
         }`}
       >
         <a href="#top">

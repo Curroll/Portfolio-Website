@@ -64,13 +64,14 @@ const Service = () => {
                     hover:bg-neutral-200 dark:hover:bg-neutral-700 
                     hover:-translate-y-1 duration-500"
         >
-          <Image
-            src={icon}
-            alt={`${title} icon`}
-            width={40}
-            height={40}
-            className="w-10"
-          />
+        <Image
+          src={icon}
+          alt={`${title} icon`}
+          width={40}
+          height={40}
+          className="w-10 dark:invert"
+        />
+
           <h3 className="text-lg my-4 text-gray-700 dark:text-gray-200">
             {title}
           </h3>

@@ -97,7 +97,9 @@ const About = () => {
         initial={{y:20,opacity:0}}
           whileInView={{y:0, opacity:1}} 
           transition={{duration:0.5, delay:1.3}} 
-          className="my-6 text-gray-700 dark:text-gray-300 font-Ovo">Tools I Use</motion.h4>
+          className="my-6 text-gray-700 dark:text-gray-300 font-Ovo">
+            Tools I Use
+          </motion.h4>
           <motion.ul
            initial={{opacity:0}}
            whileInView={{opacity:1}} 
@@ -107,7 +109,7 @@ const About = () => {
               <motion.li
               whileHover={{scale:1.1}}
                 key={index}
-                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 dark:border-gray-600 cursor-pointer rounded-lg hover:bg-neutral-200 dark:hover:bg-neutral-700 hover:-translate-y-1 duration-500 hover:shadow-black"
+                className="flex dark:bg-gray-700 items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 dark:border-gray-600 cursor-pointer rounded-lg hover:bg-neutral-200 dark:hover:bg-neutral-700 hover:-translate-y-1 duration-500 hover:shadow-black"
               >
                 <Image src={tool} alt={`Tool icon ${index + 1}`} className="w-5 sm:w-7" />
               </motion.li>
